@@ -86,10 +86,6 @@ The module exposes these outputs:
 
 - ZhangMaKe (repository owner)
 
-## License
-
-Include your preferred license here (e.g., MIT, Apache-2.0). If this repo already has a `LICENSE` file, the module inherits that license.
-
 ## Notes
 
 - This module delegates IAM policy and Lambda packaging/deployment to submodules. Review both submodules to understand how they package code, handle state, and create policies.
