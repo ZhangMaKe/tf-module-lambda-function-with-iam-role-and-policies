@@ -1,0 +1,21 @@
+{
+  "name": "tf-module-lambda-function-with-iam",
+  "version": "1.0.0",
+  "description": "This Terraform module creates an IAM Role (and associated policies) and a Lambda function that uses that role. It is intended to simplify creating a Lambda with the exact IAM permissions you need by combining an IAM role+policy module with a Lambda function packaging/deployment module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "semantic-release": "^21.1.2"
+  }
+}
