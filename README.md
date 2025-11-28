@@ -37,7 +37,7 @@ module "lambda_with_iam" {
 }
 ```
 
-## Inputs
+## Input Variables
 
 The following input variables are defined for this module:
 
