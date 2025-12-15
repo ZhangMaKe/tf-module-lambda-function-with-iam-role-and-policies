@@ -12,6 +12,12 @@ variable "role_policies" {
   description = "A list of iam policy objects containing name, actions, and resources, specifying the permissions to be given to the role."
 }
 
+variable "precreated_policy_arns" {
+  description = "A list of existing IAM policy ARNs to attach to the role."
+  type = list(string)
+  default = []
+}
+
 variable "source_file" {
   type = string
   description = "path to directory containing the source code (optional, either source_file or source_dir must be provided.)"

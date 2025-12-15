@@ -1,8 +1,9 @@
 module "iam_role_and_policy" {
-  source = "git::https://github.com/ZhangMaKe/tf-module-iam-role-and-policy.git?ref=v1.0.0"
+  source = "git::https://github.com/ZhangMaKe/tf-module-iam-role-and-policy.git?ref=v1.1.0"
   role_name = "${var.role_name}"
   service_assuming_role = "lambda.amazonaws.com"
   role_policies = var.role_policies
+  precreated_policy_arns = var.precreated_policy_arns
 }
 
 module "lambda_function" {
