@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/compare/v1.1.0...v1.1.1) (2025-12-15)
+
+
+### Bug Fixes
+
+* Merge pull request [#2](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/issues/2) from ZhangMaKe/fix/change-precreated-policy-arns-to-map ([90c9618](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/commit/90c96187fec4a104b2283b4f77ad74bc470b09d0))
+
 # [1.1.0](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/compare/v1.0.0...v1.1.0) (2025-12-15)
 
 
