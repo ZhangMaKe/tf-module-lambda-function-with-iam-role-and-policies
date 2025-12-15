@@ -8,6 +8,7 @@ Key features:
 - Create an IAM role with one or more inline policies (defined by name, actions and resources).
 - Create a Lambda function (packaged from a local source directory) and attach the created role.
 - Optional SQS Dead-Letter Queue (DLQ) configuration for failed events.
+- Attaches any IAM policies provided in input variable precreated_policy_arns to the created role.
 
 ## Usage
 
@@ -34,6 +35,8 @@ module "lambda_with_iam" {
     ENV = "prod"
   }
   use_sqs_dlq = false
+
+  precreated_policy_arns = ["arn:aws:iam::12345:policy/dynamo-read-policy", "arn:aws:iam::12345:policy/dynamo-write-policy"]
 }
 ```
 
@@ -52,6 +55,7 @@ The following input variables are defined for this module:
 - `function_name` (string) - Name of the Lambda function.
 - `environment_variables` (map(string), default = {}) - Environment variables to set for the Lambda.
 - `use_sqs_dlq` (bool, default = false) - When true, creates an SQS queue and configures the Lambda to send failed events to it.
+- `precreated_policy_arns` (list(string), default = []) - A list of existing IAM policy ARNs to attach to the role.
 
 Example `role_policies` value:
 
