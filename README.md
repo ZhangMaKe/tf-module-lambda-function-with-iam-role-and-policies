@@ -56,6 +56,7 @@ The following input variables are defined for this module:
 - `environment_variables` (map(string), default = {}) - Environment variables to set for the Lambda.
 - `use_sqs_dlq` (bool, default = false) - When true, creates an SQS queue and configures the Lambda to send failed events to it.
 - `precreated_policy_arns` (map(string), default = {}) - A list of existing IAM policy ARNs to attach to the role.
+- `lambda_layers` (list(string), default = []) - A list of lambda layer arns to be used by the lambda function. 
 
 Example `role_policies` value:
 
