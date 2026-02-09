@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/compare/v1.1.1...v1.2.0) (2026-02-09)
+
+
+### Features
+
+* added support for lambda layers via an optional variable 'lambda_layers' ([a80c145](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/commit/a80c145a3a737e160202f5053bc51ceb020f11ac))
+* Merge pull request [#3](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/issues/3) from ZhangMaKe/feat/add-lambda-layer-support ([11917d8](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/commit/11917d8f061a0fe847b5144615841bbc59a76ca6))
+
 ## [1.1.1](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/compare/v1.1.0...v1.1.1) (2025-12-15)
 
 
