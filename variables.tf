@@ -51,3 +51,9 @@ variable "use_sqs_dlq" {
   default = false
   description = "boolean, if true creates an sqs queue and configures failed events to be sent to it."
 }
+
+variable "lambda_layers" {
+  type = list(string)
+  default = []
+  description = "A list of lambda layer arns to be used by the lambda function"
+}
