@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/compare/v1.2.0...v1.3.0) (2026-04-27)
+
+
+### Features
+
+* add support for lambda function module version 1.5.0 which allows creation of a cloudwatch log group for the function logs ([fcd922f](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/commit/fcd922ff02fae7c5b5e2e76ae347aef4838aa94d))
+* Merge pull request [#4](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/issues/4) from ZhangMaKe/chore/provide-support-for-lambda-module-v1.5.0 ([ca2d7d5](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/commit/ca2d7d57f5ada067a99b5b3e746ce28c8c2dcf2b))
+
 # [1.2.0](https://github.com/ZhangMaKe/tf-module-lambda-function-with-iam-role-and-policies/compare/v1.1.1...v1.2.0) (2026-02-09)
 
 
