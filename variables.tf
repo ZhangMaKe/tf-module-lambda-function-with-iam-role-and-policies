@@ -57,3 +57,9 @@ variable "lambda_layers" {
   default = []
   description = "A list of lambda layer arns to be used by the lambda function"
 }
+
+variable "include_lambda_log_group" {
+  type = bool
+  default = true
+  description = "whether or not to create the cloudwatch logs group for the lambda function"
+}

@@ -7,7 +7,7 @@ module "iam_role_and_policy" {
 }
 
 module "lambda_function" {
-  source = "git::https://github.com/ZhangMaKe/tf-module-lambda-function.git?ref=v1.4.0"
+  source = "git::https://github.com/ZhangMaKe/tf-module-lambda-function.git?ref=v1.5.0"
   source_file = var.source_file != null ? var.source_file : null
   source_dir = var.source_dir != null ? var.source_dir : null
   output_path = var.output_path
@@ -16,4 +16,5 @@ module "lambda_function" {
   environment_variables = var.environment_variables
   use_sqs_dlq = var.use_sqs_dlq
   layers = var.lambda_layers
+  include_log_group = var.include_lambda_log_group
 }

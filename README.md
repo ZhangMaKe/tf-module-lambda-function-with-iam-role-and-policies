@@ -57,6 +57,7 @@ The following input variables are defined for this module:
 - `use_sqs_dlq` (bool, default = false) - When true, creates an SQS queue and configures the Lambda to send failed events to it.
 - `precreated_policy_arns` (map(string), default = {}) - A list of existing IAM policy ARNs to attach to the role.
 - `lambda_layers` (list(string), default = []) - A list of lambda layer arns to be used by the lambda function. 
+- `include_lambda_log_group` (bool, default = true) - Boolean value to indicate whether to create a CloudWatch Log Group for the Lambda Function logs
 
 Example `role_policies` value:
 
